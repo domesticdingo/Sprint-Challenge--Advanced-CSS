@@ -1,1 +1,23 @@
 // Mixins Here
+.buttoned(@textcolor, @backgroundcolor) {
+    border-radius: 5px;
+    background-color: @backgroundcolor;
+    padding: 10px;
+    font-size: 2rem;
+    max-width: 90px;
+    color: @textcolor;
+    
+    &:hover {
+        color: black;
+        background-color: lightblue;
+    }
+}
+
+.mobilebutton {
+    border-radius: 5px;
+    background-color:#22273A;
+    color: white;
+    font-size: 2rem;
+    max-width: 100%;
+    text-align: center;
+}
